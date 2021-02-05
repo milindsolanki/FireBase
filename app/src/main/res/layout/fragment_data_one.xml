@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tabApiCall.DataOneFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimens_5dp"
+        app:cardCornerRadius="@dimen/dimens_5dp"
+        app:cardElevation="@dimen/dimens_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtlastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+
+            <TextView
+                android:id="@+id/txtText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimens_5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/dimens_18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
